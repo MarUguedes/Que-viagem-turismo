@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/queViagem/mapas/mapa.dart';
-import 'package:flutter_application_1/queViagem/passeios/passeios.dart';
-import 'package:flutter_application_1/queViagem/voos/voos.dart';
+import 'package:que_viagem_turismo/mapas/mapa.dart';
+import 'package:que_viagem_turismo/passeios/passeios.dart';
+import 'package:que_viagem_turismo/voos/voos.dart';
 
 class QueViagem extends StatelessWidget {
   const QueViagem({Key? key}) : super(key: key);
@@ -67,7 +67,6 @@ class TabTravel extends StatelessWidget {
         child: Passeios(),
       ),
       Mapas()
-
     ]);
   }
 }
